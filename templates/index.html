@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataFilter</title>
+</head>
+<body>
+   <h1>Welcome to DataFilter</h1>
+    <form id="filterForm" action="/query" method="post">
+        <b>JWT Token: </b>
+        <input type="text" id="auth" name="auth" size="40" required>
+        <br>
+        <b>Filter json:</b>
+        <br>
+        <textarea id="filter" name="filter" placeholder="filter in json format" rows="20" cols="40"></textarea>
+        <br>
+        <button type="submit">Submit & Export</button>
+    </form>
+</body>
+</html>
